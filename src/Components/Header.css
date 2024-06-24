@@ -1,0 +1,15 @@
+.header__container{
+    width: auto;
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+    font-weight: 600;
+}
