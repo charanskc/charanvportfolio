@@ -28,7 +28,7 @@ function Projects() {
             </div>
             <div className="project__three">
                 <img src={lostandfound} alt="laf_svg" className='lostandfoundImage'/>
-                <h2 className='projects__projectHeader'>Lost and Found&ensp;<a href=""></a><FontAwesomeIcon icon={faUpRightFromSquare} size="2xs" /> </h2>
+                <h2 className='projects__projectHeader'>Lost and Found&ensp;<a></a><FontAwesomeIcon icon={faUpRightFromSquare} size="2xs" /> </h2>
                 <p>A platform where people from an organization can go if they find any items or if they loose.</p>
             </div>
         </div>
