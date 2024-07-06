@@ -70,7 +70,7 @@ p{
 
 .experience__objectoriented{
     grid-area: 1 / 1 / 2 / 2;
-    border: 2px solid black;
+    border: 2px solid var(--text_colour);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@ p{
 
 .experience__frontend{
     grid-area: 1 / 2 / 2 / 3;
-    border: 2px solid black;
+    border: 2px solid var(--text_colour);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +91,7 @@ p{
 
 .experience__backend{
     grid-area: 1 / 3 / 2 / 4;
-    border: 2px solid black;
+    border: 2px solid var(--text_colour);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,7 +101,7 @@ p{
 
 .experience__networking{
     grid-area: 2 / 1 / 3 / 4;
-    border: 2px solid black;
+    border: 2px solid var(--text_colour);
     width: 30%;
     display: flex;
     flex-direction: column;

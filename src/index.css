@@ -1,5 +1,18 @@
+:root{
+  --mainbody_colour: white;
+  --text_colour:black;
+}
+
+[data-theme="dark"]{
+  --mainbody_colour:black;
+  --text_colour: white;
+}
+
+
 body{
   width: auto;
   height: auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--mainbody_colour);
+  color:var(--text_colour);
 }
