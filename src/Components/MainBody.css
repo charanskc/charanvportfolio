@@ -170,5 +170,8 @@ body.active-modal {
         margin-right: 0;
     }
 
+    .mainprofile__content > h2{
+        font-size: 40px;
+    }
 
 }
