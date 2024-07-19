@@ -9,8 +9,10 @@ import Projects from './Components/Projects';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MainBody />
+      <div className="App__landingpage">
+        <Header className="App__HeaderComp"/>
+        <MainBody className="App__MainBodyComp"/>
+      </div>
       <Aboutme />
       <Experience />
       <Projects/>

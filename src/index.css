@@ -8,6 +8,10 @@
   --text_colour: white;
 }
 
+html{
+  margin: 0;
+  padding: 0;
+}
 
 body{
   width: auto;

@@ -1,16 +1,18 @@
 .header__container{
-    width: 90%;
-    height: fit-content;
-    padding: 1%;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     align-items: center;
+}
+
+.header__title{
+    grid-column-start:2;
+    grid-column-end: 5;
 }
 
 .header__title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
-    margin-left: 10%;
     font-weight: 600;
 }
 

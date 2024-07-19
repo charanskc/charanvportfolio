@@ -1,0 +1,18 @@
+.App{
+  margin: 0;
+  padding: 0;
+}
+
+.App__landingpage{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:20vh 75vh;
+}
+
+@media (max-width: 575.98px){
+  .App__landingpage{
+    
+    grid-template-rows:20vh 45vh;
+  }
+  
+}

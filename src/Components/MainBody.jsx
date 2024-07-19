@@ -55,7 +55,7 @@ function MainBody() {
             <h4 className="contact__linkedin"><a href="https://www.linkedin.com/in/sai-charan-v-ba7a04184/">LinkedIn</a></h4>
         </div>
             <button className="close-modal" onClick={handleContactDetails}>
-              CLOSE
+              X
             </button>
           </div>
         </div>
