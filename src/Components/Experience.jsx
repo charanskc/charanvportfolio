@@ -6,7 +6,7 @@ function Experience() {
     <div className="experience__maincontainer">
         <div className="experience__mainheading">
             <h4>Explore My</h4>
-            <h1>Experience</h1>
+            <h1>Skills</h1>
         </div>
         <div className="experience__mainbody">
             <div className="experience__objectoriented">

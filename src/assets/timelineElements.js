@@ -1,0 +1,67 @@
+const timelineElements = [
+  {
+    id: 1,
+    title: "Graduated from University",
+    subtitle: "Integrated M.Tech, Software Engineering",
+    description:"Concentrated more on building communication, indepth knowledge of software functionalites and their use cases in the real world. Learned various programming languages and had working knowledge over multiple applications, interfaces that are currently used in the software industry. Logical Reasoning and Logical Thinking skills have been enhanced a lot in every semester throught the duration.",
+    date: "2018-2023",
+    icon: "school",
+    color: "white",
+  },
+  {
+    id: 2,
+    title: "The Sparks Foundation",
+    subtitle: "Internship",
+    description:"The first ever internship of my career focused mainly on problem solving skills and training on web development. At the end of internship, i was able to deliver a Product Landing Page.",
+    date: "Sep 2020 - Oct 2020",
+    icon: "work",
+    color: "white",
+  },
+  {
+    id: 3,
+    title: "Maso Technologies",
+    subtitle: "Internship",
+    description:"Focused mainly on handling data with python and R. Learned lot of technicalities of being a data analyst with help of Jupyter interface. As training and work had gone simultaneously, learning pace has been adapted and increased.",
+    date: "Jul 2021 - Oct 2021",
+    icon: "work",
+    color: "white",
+  },
+  {
+    id: 4,
+    title: "Yehlo Solutions",
+    subtitle: "Freelancing",
+    description:"Developed a landing page for an upcoming startup which included lot of tech stack such as REACTJS, NODE JS, MONGO DB.",
+    date: "Dec 2021 - Jan 2022",
+    icon: "freelancing",
+    color: "white",
+  },
+  {
+    id: 5,
+    title: "Nokia network and solutions",
+    subtitle: "Internship",
+    description:"A college through internship where i have become familiar with the networking concepts such as 4G and 5G architecture. Worked on building network automation scripts through linux, python. Written over 200+ scripts in the course of time.",
+    date: "Aug 2022 - May 2023",
+    icon: "work",
+    color: "white",
+  },
+  {
+    id: 6,
+    title: "Yehlo Solutions",
+    subtitle: "Freelancing",
+    description:"Handled a website called silverishq.com which was involved working mostly with 'shopify' platform as a third party service. Introduced a new feature in the website where a person can find their ring size based on placing the existing ring on the screen.",
+    date: "Aug 2023 - Sep 2023",
+    icon: "freelancing",
+    color: "white",
+  },
+  {
+    id: 7,
+    title: "PowerSchool India PVT LTD",
+    subtitle: "Full-time",
+    description:"Working currently in powerschool as an Associate Engineer I where i have been doing manual testing and automation testing frequently. Involved in the fix of automation scripts where we intgerate a third party app called TIBCO to our application and perform regression testing on the test cases.",
+    date: "Oct 2023 - Present",
+    icon: "fulltime",
+    color: "black",
+  }
+];
+
+export default timelineElements;

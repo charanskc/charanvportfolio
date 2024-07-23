@@ -1,37 +1,57 @@
 import React from 'react';
 import "./Aboutme.css";
-import SecondImage from "../assets/WhatsApp Image 2023-09-05 at 01.09.45 (1).jpeg";
+import timelineElements from "../assets/timelineElements";
+import {ReactComponent as SchoolIcon} from "../assets/school.svg";
+import {ReactComponent as WorkIcon} from "../assets/work.svg";
+import {ReactComponent as FreelancingIcon} from "../assets/software-developer-work-on-computer-programmer-coder-svgrepo-com.svg";
+import {ReactComponent as FullTimeIcon} from "../assets/user-tie-svgrepo-com.svg";
+import "react-vertical-timeline-component/style.min.css";
+import { VerticalTimeline,VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 function Aboutme() {
+
   return (
     <div className="aboutme__maincontainer">
         <div className="aboutme__mainheading">
-            <h4>Get to know more</h4>
-            <h1>About Me</h1>
+            <h4>Get to know more about my</h4>
         </div>
 
-        <div className="aboutme__body">
-            <div className="body__profileimage">
-            <img src={SecondImage} alt="second image" className='body__secondimage'/>
-            </div>
-            <div className="body__information">
-                <div className="bodyinformation__experience">
-                    <h4>Experience</h4>
-                    <p>10mos</p>
-                    <p>Automation Testing</p>
-                </div>
-                <div className="bodyinformation__education">
+            <div className="bodyinformation__education">
                     <h4>Education</h4>
-                    <p>Integrated M.Tech</p>
-                    <p>Software Engineering</p>
-                </div>
+                    <p>Integrated M.Tech, Software Engineering</p>
                 <div className="bodyinformation__introduction">
-                    <p>" I am V Sai Charan, a highly motivated Software Engineer with a strong commitment to
-leveraging my technical expertise to drive excellence within esteemed organizations. 
-With a current pursuit of an Integrated M.Tech in Software Engineering from Vellore 
-Institute of Technology, I have achieved a notable CGPA of 8.47. "</p>
+                        <p>" I am V Sai Charan, a highly motivated Software Engineer with a strong commitment to
+    leveraging my technical expertise to drive excellence within esteemed organizations. 
+    With a current pursuit of an Integrated M.Tech in Software Engineering from Vellore 
+    Institute of Technology, I have achieved a notable CGPA of 8.47. "</p>
                 </div>
             </div>
+
+        <div className="bodyinformation__experience">
+            <h1>Experience</h1>
+            <VerticalTimeline animate={true}>
+                {timelineElements.map((element) =>{
+
+                    let isWorkIcon = element.icon === "work";
+                    let isFreelancingIcon = element.icon ==="freelancing";
+                    let isFullTimeIcon = element.icon ==="fulltime";
+
+                    return (
+                        <VerticalTimelineElement 
+                            className='experience__card'
+                            key={element.id}
+                            date={element.date}
+                            dateClassName='date'
+                            icon={isWorkIcon ? <WorkIcon /> : (isFreelancingIcon ? <FreelancingIcon/> : (isFullTimeIcon ? <FullTimeIcon/> : <SchoolIcon/>))}
+                        >
+                            
+                            <h3 className='vertical-timeline-element-title'>{element.title}</h3>
+                            <h5 className='vertical-timeline-element-subtitle'>{element.subtitle}</h5>
+                            <p id="description">{element.description}</p>
+                        </VerticalTimelineElement>
+                    );
+                })}
+            </VerticalTimeline>
         </div>
 
     </div>
