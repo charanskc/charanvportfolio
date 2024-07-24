@@ -11,8 +11,7 @@
 
 @media (max-width: 575.98px){
   .App__landingpage{
-    
-    grid-template-rows:20vh 45vh;
+    grid-template-rows:auto;
   }
   
 }

@@ -86,7 +86,11 @@
 @media (max-width: 575.98px) {
 
   .aboutme__maincontainer{
-    margin: 0;
+    margin: 10% 0 0 0;
+  }
+
+  .bodyinformation__introduction > p{
+    padding: 1em;
   }
 
 }
