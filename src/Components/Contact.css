@@ -1,5 +1,6 @@
 .contact__maincontainer{
-    height: 50vh;
+    height: fit-content;
+    margin: 50px;
 }
 
 .contact__mainheading{
@@ -39,8 +40,8 @@ a{
 @media (max-width: 575.98px) {
 
     .contact__maincontainer{
-        margin-top: 150%;
-        height: 30vh;
+        margin-top: 20%;
+        height: fit-content;
     }
 
     .contact__mainbody{

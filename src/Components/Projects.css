@@ -1,6 +1,5 @@
 .projects__maincontainer{
-    height: 85vh;
-    margin: 100px 0 0 0 ;
+    height: fit-content;
 }
 
 .projects__mainheading{
@@ -61,7 +60,7 @@ p{
     .projects__maincontainer{
         justify-content: center;
         align-items: center;
-        margin-top: 100%;
+        margin-top: 10%;
     }
 
     .projects__mainbody{
