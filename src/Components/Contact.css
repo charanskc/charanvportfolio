@@ -56,4 +56,16 @@ a{
         text-align: center;
     }
 
+    @media (max-width: 400px){
+
+        .contact__mainbody > .contact__email{
+            font-size:large;
+        }
+
+        .contact__mainheading > h1,h4{
+            font-size: medium;
+        }
+
+    }
+
 }
