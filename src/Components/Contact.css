@@ -59,7 +59,7 @@ a{
     @media (max-width: 400px){
 
         .contact__mainbody > .contact__email{
-            font-size:large;
+            font-size:small;
         }
 
         .contact__mainheading > h1,h4{
