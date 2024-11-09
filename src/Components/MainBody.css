@@ -22,11 +22,14 @@
 }
 
 .mainprofile__content > h5 , h3,h2,button{
-    margin: 0;
+    margin: 5px 0 0 0;
+
 }
 
 .mainprofile__content > h5{
     font-size: 20px;
+    font-family:cursive;
+    margin-top: 30px;
 }
 
 .mainprofile__content > h3{
@@ -36,6 +39,7 @@
 .mainprofile__content > h2{
     font-size: 45px;
     color: #9A9A9A;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .main_profile__buttons{
@@ -43,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 8px;
 }
 
 .main_profile__buttons > button{
