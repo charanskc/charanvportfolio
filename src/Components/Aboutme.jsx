@@ -20,7 +20,7 @@ function Aboutme() {
                     <h4>Education</h4>
                     <p>Integrated M.Tech, Software Engineering</p>
                 <div className="bodyinformation__introduction">
-                        <p>" I am V Sai Charan, a highly motivated Software Engineer with a strong commitment to
+                        <p>" Heyy, I'm Charan, a highly motivated Software Engineer with a strong commitment to
     leveraging my technical expertise to drive excellence within esteemed organizations. 
     With a current pursuit of an Integrated M.Tech in Software Engineering from Vellore 
     Institute of Technology, I have achieved a notable CGPA of 8.47. "</p>
